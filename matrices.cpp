@@ -54,7 +54,17 @@ for(c=0;c<10;c++){
 
  }
 	
-	
+// Esta es mi parte del trabajo grupal,soy Valencia Cuero Ana Patricia 
+//lenar la matriz producto con la multiplicacion de la matriz1 y lamatriz2
+
+cout<<"\n"<<"\n"<<"\n";
+cout<<" Se mostrara el producto entre la matriz 1 y matriz 2"<<endl<<endl;
+for(c=0;c<10;c++){
+	producto[c]=matriz1[c]* matriz2[c];
+	cout<<producto[c];
+	cout<< " ,  ";
+
+}	
 	
 return 0;
 
