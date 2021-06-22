@@ -28,9 +28,19 @@ for(c=0; c<10;c++){
 	cout<<matriz2[c]<<"\n";
 }
 
+// Esta es mi parte del trabajo grupal, soy Genesis Noelia Gallegos Pilligua
+// Llenar la matriz suma con la suma de cana uno de los elementos de la matriz1 y la matriz2
 
-
-
+cout<<"\n";
+cout<<" Se mostrara la suma de la matriz 1 y matriz 2 "<<endl<<endl;
+for(c=0;c<10;c++){
+	suma[c]=matriz1[c]+ matriz2[c];
+	cout<<suma[c];
+	cout<< " ,  ";
+}
+	
+	
+	
 return 0;
 
 }
