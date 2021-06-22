@@ -65,6 +65,18 @@ for(c=0;c<10;c++){
 	cout<< " ,  ";
 
 }	
+
+//Esta es mi parte del trabajo grupal, soy Mayerli Parraga
+// llenar  la matriz division con la division de la matriz1 con la matriz2
+	
+cout<<"\n"<<"\n"<<"\n";
+cout<<" Se mostrara la divicion de la matriz1 y la matriz2"<<endl<<endl;
+for(c=0;c<10;c++){
+	division[c]=matriz1[c]/ matriz2[c];
+	cout<<division[c];
+	cout<< " ,  ";
+	
+}
 	
 return 0;
 
